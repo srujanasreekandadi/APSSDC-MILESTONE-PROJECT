@@ -1,3 +1,4 @@
+
 # Student Certification Classification using Machine Learning
 
 ## APSSDC ML Internship – Milestone Project
@@ -57,19 +58,19 @@ The project follows these steps:
 
 ```text
 40 Attendance CSV Files
-          ↓
+         ↓
 Combine All Sessions
-          ↓
+         ↓
 Calculate Student Attendance
-          ↓
+         ↓
 Calculate Attendance Percentage
-          ↓
+         ↓
 Certification Classification
-          ↓
+         ↓
 Random Forest Model
-          ↓
+         ↓
 Prediction and Accuracy
-          ↓
+         ↓
 Data Visualization
 ```
 
@@ -131,6 +132,7 @@ The scatter plot represents the relationship between:
 - Matplotlib
 - Scikit-learn
 - Google Colab
+- Jupyter Notebook
 - GitHub
 
 ---
@@ -149,13 +151,13 @@ zipfile
 ## Project Files
 
 ```text
-Student-Certification-Classification/
+APSSDC-MILESTONE-PROJECT/
 │
-├── student_certification.py
-├── README.md
-└── datasets/
-    └── 40 attendance CSV files
+├── ML_INTERNSHIP_STUDENT_ATTENDANCE_SYSTEM_MILE_STONE_PROJECT_Kandadi_Srujana_Sree.ipynb
+└── README.md
 ```
+
+The project is implemented in a **Jupyter Notebook (`.ipynb`)** and can be executed using **Google Colab**.
 
 ---
 
@@ -164,27 +166,32 @@ Student-Certification-Classification/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-link>
+git clone https://github.com/srujanasreekandadi/APSSDC-MILESTONE-PROJECT.git
 ```
 
-### 2. Open the Python file
+### 2. Open the Jupyter Notebook
 
-Run:
+Open:
 
 ```text
-student_certification.py
+ML_INTERNSHIP_STUDENT_ATTENDANCE_SYSTEM_MILE_STONE_PROJECT_Kandadi_Srujana_Sree.ipynb
 ```
+
+The notebook can be opened using **Google Colab** or **Jupyter Notebook**.
 
 ### 3. Upload the ZIP file
 
-The program asks for the ZIP file containing the 40 session CSV files.
+Upload the ZIP file containing the **40 session CSV files** when prompted by the notebook.
 
-### 4. Run the program
+### 4. Run the notebook
 
-The program will:
+Run the cells in sequence.
+
+The notebook will:
 
 - Extract the files
 - Read all 40 sessions
+- Combine the attendance data
 - Calculate attendance
 - Classify students
 - Train the Random Forest model
@@ -215,7 +222,7 @@ Therefore:
 
 ## Sample Output
 
-The program displays:
+The notebook displays:
 
 ```text
 Total Students         : 980
@@ -255,3 +262,4 @@ The student email IDs and Aadhaar numbers used in the dataset are **syntheticall
 **APSSDC ML Internship – Milestone Project**
 
 **Student Certification Classification using Random Forest**
+```
